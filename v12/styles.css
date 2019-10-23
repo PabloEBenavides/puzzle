@@ -1,0 +1,171 @@
+body{
+	background-image: url("images/background.jpg");
+	background-size: cover; 
+	background-repeat: no-repeat;
+	background-color: #00205b; 
+}
+
+h1 {
+  color: #CA7218;
+  text-align: center;
+}
+
+/* Contenedor del puzzle*/
+#contenedorPuzzle {
+	margin: 20px auto;
+	width: 550px;
+	height: 600px;
+}
+
+/* Puzzle */
+#contenedorPiezas{
+	position:absolute; 
+	width: 340px;
+	height: 320px;
+	right: 70%;
+	top: 26%;
+}
+
+#contenedorPiezas2{
+	z-index:5;
+	position:absolute;
+	top:600px;
+    left:50%;
+    width: 960px;
+    height: 170px;
+    transform:translate(-50%,-50%);
+}
+
+#contenedorPiezas3{;
+	position:absolute; 
+	width: 320px;
+	height: 300px;
+	left: 68%;
+	top: 14%;
+}
+
+#puzzle {
+	position:absolute; 
+	margin: auto;
+	z-index:3;
+	opacity:0.9;
+	width: 488px;
+	height: 370px;
+	top: 16%;
+	background-image: url("images/backpuzzle.png");
+	background-width: 436px;
+	background-repeat: no-repeat;
+}
+
+#logo1 img {
+	position:absolute; 
+	float: left;
+	margin-left: 90px;
+	margin-top: 10px;
+	width: 450px;
+}
+
+#logo2 img {
+	position:absolute; 
+	float: left;
+	margin-left: 70%;
+	margin-top: 10px;
+	width: 300px;
+}
+
+.contenedorPieza {
+	width: 113.5px;
+	height: 81.1px;
+	float: left;
+}
+
+#contenedorPuzzle img {
+	float: left;
+	padding: 1px;
+	width: 158px;
+	height: 126px;
+}
+
+#moon img
+{
+    position:fixed;
+    left:0px;
+    bottom: 0px 
+}
+
+#whole img {
+	position:absolute; 
+	top: 15%;
+	left: 30%;
+	width: 40%;
+}
+
+#start  img {
+	width: 100%;
+}
+
+button {
+  z-index:30;
+  position:absolute; 
+  bottom: 10%;
+  left: 40%;
+  width: 20%;
+  border: 0px solid #AD235E;
+  background: transparent;
+  cursor:pointer;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 6; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  margin: 8% auto; /* 15% from the top and centered */
+  padding: 20px;
+  width: 450px; /* Could be more or less, depending on screen size */
+}
+
+#myModal img {
+	width: 450px;
+}
+
+#modalbox {
+  z-index:30;
+  position:absolute; 
+  top: 15%;
+  left: 30%;
+  width: 40%;
+  border: 0px solid #AD235E;
+  background: transparent;
+  cursor:pointer;
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button:focus {
+    outline: 0 !important;
+}
